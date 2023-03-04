@@ -11,7 +11,7 @@ $ sudo apt install vagrant
 $ sudo reboot
 ```
 
-### Setup Virtual environment
+### Run/Setup Virtual environment
 
 For this guide, you will need 3 servers as below.
 ```
