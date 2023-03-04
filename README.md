@@ -1,4 +1,4 @@
-# Chef Playground (Vagrant+VBox LAB)
+# CHEF Playground (Vagrant+VBox LAB)
 
 ### Chef vs Puppet vs Ansible 
 
