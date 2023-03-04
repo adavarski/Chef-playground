@@ -13,7 +13,7 @@ $ sudo reboot
 
 ### Run/Setup Virtual environment
 
-For this guide, you will need 3 servers as below.
+For this guide, you will need 3 servers (VBox VMs) as below.
 ```
 TASK	IP Address	HOSTNAME
 --------------------------------------------------------------------------------
