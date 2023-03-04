@@ -316,12 +316,12 @@ $ knife node edit chef-client
 $ vagrant ssh node-3
 $ sudo chef-client
 $ curl localhost
-$ sudo yum remove nginx (to move to environments & roles example: production ready)
+$ sudo yum remove nginx (for environments & roles: production ready -> see below)
 
 
 ```
 
-### Use Roles and Environments in Chef to Control Server Configurations (Production-ready configuration)
+### Use Roles and Environments in Chef to Control Server Configurations (Production-Ready configuration)
 
 
 ```
