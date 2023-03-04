@@ -2,7 +2,7 @@
 
 ### Chef vs Puppet vs Ansible 
 
-<img src="pictures/Ansible-vs-Puppet-vs-Chef-ipcisco.jpg?raw=true" width="700">
+<img src="pictures/Ansible-vs-Puppet-vs-Chef-ipcisco.jpg?raw=true" width="500">
 
 ### Install VirtualBox & Vagrant (Ubuntu Server example)
 
