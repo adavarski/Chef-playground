@@ -4,6 +4,11 @@
 
 <img src="pictures/Ansible-vs-Puppet-vs-Chef-ipcisco.jpg?raw=true" width="500">
 
+### Chef Architecture
+
+<img src="pictures/How-To-Install-Chef-Infra-Server-on-Rocky-Linux-AlmaLinux-8-3.webp?raw=true" width="500">
+
+
 ### Install VirtualBox & Vagrant (Ubuntu Server example)
 
 ```
