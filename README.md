@@ -134,7 +134,6 @@ $ scp root@192.168.56.11:/root/*.pem ~/chef-repo/.chef/
 $ ls ~/chef-repo/.chef
 
 ```
-
 ### Configure Knife and Bootstrap a Client Node
 
 Bootstrapping basically installs the Chef Infra Client on the client system so it can be able to communicate with the Chef server. Basically, there are two ways to bootstrap a client node:
@@ -168,9 +167,7 @@ $ knife bootstrap 192.168.56.13 -x root -P vagrant --node-name chef-client
 $ knife node list
 $ knife node show chef-client
 ```
-
 ### A basic NGINX cookbook for CHEF
-
 
 ```
 $ vagrant ssh node-2
@@ -321,8 +318,6 @@ $ vagrant ssh node-3
 $ sudo chef-client
 $ curl localhost
 $ sudo yum remove nginx (for environments & roles: production ready -> see below)
-
-
 ```
 
 ### Use Roles and Environments in Chef to Control Server Configurations (Production-Ready configuration)
@@ -460,3 +455,9 @@ Infra Phase complete, 6/8 resources updated in 15 seconds
 </html>
 [vagrant@chef-client ~]$ 
 ```
+### Chef Manage UI
+
+<img src="pictures/Chef-UI-Cookbooks.png?raw=true" width="500">
+<img src="pictures/Chef-UI-Roles.png?raw=true" width="500">
+<img src="pictures/Chef-UI-Environments.png?raw=true" width="500">
+
