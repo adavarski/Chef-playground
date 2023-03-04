@@ -475,7 +475,7 @@ Infra Phase complete, 6/8 resources updated in 15 seconds
 </html>
 [vagrant@chef-client ~]$ 
 ```
-### Chef Manage UI screenshots
+### Chef Manage UI Screenshots: 
 
 <img src="pictures/Chef-Nodes.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Cookbooks.png?raw=true" width="500">
