@@ -316,7 +316,53 @@ $ knife node edit chef-client
 $ vagrant ssh node-3
 $ sudo chef-client
 $ curl localhost
-$ sudo yum remove nginx
+$ sudo yum remove nginx (to move to environments & roles example: production ready)
 
 
 ```
+
+### Use Roles and Environments in Chef to Control Server Configurations (Production-ready configuration)
+
+
+```
+$ vagrant ssh node-2
+
+$ cd ~/chef-repo
+$ mkdir roles && cd roles
+[vagrant@chef-workstation roles]$ cat web_server.rb 
+name "web_server"
+description "A role to configure our front-line web servers"
+run_list "recipe[nginx]"
+
+$ knife role create web_server
+
+$ cd ~/chef-repo
+$ mkdir environments
+
+[vagrant@chef-workstation environments]$ cat production.rb 
+name "production"
+description "The master production branch"
+cookbook_versions({
+    "nginx" => "<= 1.1.0",
+})
+
+$ knife node edit chef-client
+
+{
+  "name": "chef-client",
+  "chef_environment": "production",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "policy_name": null,
+  "policy_group": null,
+  "run_list": [
+  "role[web_server]"
+]
+
+}
+
+
+
