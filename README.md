@@ -335,6 +335,8 @@ description "A role to configure our front-line web servers"
 run_list "recipe[nginx]"
 
 $ knife role create web_server
+[vagrant@chef-workstation chef-repo]$ knife role list
+web_server
 
 $ cd ~/chef-repo
 $ mkdir environments
@@ -345,6 +347,10 @@ description "The master production branch"
 cookbook_versions({
     "nginx" => "<= 1.1.0",
 })
+
+[vagrant@chef-workstation chef-repo]$ knife environment list 
+_default
+production
 
 $ knife node edit chef-client
 
@@ -364,5 +370,6 @@ $ knife node edit chef-client
 
 }
 
+$ vagrant ssh node-3
 
 
