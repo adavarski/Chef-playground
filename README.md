@@ -1,4 +1,4 @@
-# Chef-playground
+# Chef Playground (Vagrant+VBox LAB)
 
 ### Install VirtualBox & Vagrant (Ubuntu Server example)
 
