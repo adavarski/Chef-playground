@@ -1,5 +1,9 @@
 # Chef Playground (Vagrant+VBox LAB)
 
+### Chef vs Puppet vs Ansible 
+
+<img src="pictures/Ansible-vs-Puppet-vs-Chef-ipcisco.jpg?raw=true" width="1000">
+
 ### Install VirtualBox & Vagrant (Ubuntu Server example)
 
 ```
