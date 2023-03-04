@@ -1,6 +1,6 @@
 # Chef-playground
 
-### Install VirtualBox & Vagrant Server (Ubuntu)
+### Install VirtualBox & Vagrant Server (Ubuntu server)
 
 ```
 $ sudo apt install virtualbox virtualbox-ext-pack -y
