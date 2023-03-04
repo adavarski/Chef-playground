@@ -481,3 +481,8 @@ Infra Phase complete, 6/8 resources updated in 15 seconds
 <img src="pictures/Chef-UI-Cookbooks.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Roles.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Environments.png?raw=true" width="500">
+
+REF:
+-  https://techviewleo.com/how-to-install-chef-infra-server-on-rocky-almalinux/
+- https://medium.com/@pierangelo1982/a-basic-nginx-cookbook-for-chef-ba95d801dbf3
+- https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-environments-in-chef-to-control-server-configurations
