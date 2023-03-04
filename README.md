@@ -4,9 +4,24 @@
 
 <img src="pictures/Ansible-vs-Puppet-vs-Chef-ipcisco.jpg?raw=true" width="500">
 
-### Chef Architecture
+### Chef Architecture (Overview)
 
 <img src="pictures/How-To-Install-Chef-Infra-Server-on-Rocky-Linux-AlmaLinux-8-3.webp?raw=true" width="500">
+
+### Chef Framework
+<img src="pictures/Chef-framework.png?raw=true" width="500">
+
+### Chef Framework Components 
+
+<img src="pictures/Chef-framework-components.png?raw=true" width="500">
+
+### Chef Server tools relationship
+
+<img src="pictures/Chef-server-tools-relationship.png?raw=true" width="500">
+
+### Chef Workflow 
+
+<img src="pictures/Chef-workflow.png?raw=true" width="500">
 
 
 ### Install VirtualBox & Vagrant (Ubuntu Server example)
@@ -462,7 +477,7 @@ Infra Phase complete, 6/8 resources updated in 15 seconds
 ```
 ### Chef Manage UI
 
+<img src="pictures/Chef-Nodes.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Cookbooks.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Roles.png?raw=true" width="500">
 <img src="pictures/Chef-UI-Environments.png?raw=true" width="500">
-
