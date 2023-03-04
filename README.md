@@ -91,7 +91,27 @@ $ sudo chef-server-ctl org-create techviewleo 'Techviewleo, Inc.' \
 $ sudo chef-server-ctl org-list
 $ sudo find /root -name "*.pem"
 ```
-Once installed, access the Web UI using the URL https://serverip/login. On the login page that appears, provide the admin username and password created above.
+
+###  (Optional) Install Chef Manage
+
+```
+$ sudo chef-server-ctl install chef-manage 
+$ sudo chef-server-ctl reconfigure 
+$ sudo chef-manage-ctl reconfigure
+```
+Note: Chef Manage UI via VNC
+```
+$ sudo apt install tightvncserver
+$ sudo apt install xfce4 xfce4-goodies
+$ sudo mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+root@devops:~/CHEF-LAB# cat ~/.vnc/xstartup
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
+$ sudo chmod +x ~/.vnc/xstartup
+$ vncserver 
+```
+Once installed, access the Web UI using the URL https://192.168.56.11/login. On the login page that appears, provide the admin username and password created above.
 
 ### Install and Configure the Chef Workstation.
 
