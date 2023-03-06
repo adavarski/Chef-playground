@@ -340,7 +340,7 @@ $ curl localhost
 $ sudo yum remove nginx (for environments & roles: production ready -> see below)
 ```
 
-### Use Roles and Environments in Chef to Control Server Configurations (Production-Ready configuration)
+### Roles and Environments in Chef to Control Server Configurations (Production-Ready configuration)
 
 
 ```
