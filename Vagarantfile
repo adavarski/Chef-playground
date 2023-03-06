@@ -1,4 +1,7 @@
 IMAGE_NAME = "almalinux/8"
+# IMAGE_NAME = "rockylinux/8"
+# IMAGE_NAME = "ubuntu/focal64"
+
 N = 3
 
 Vagrant.configure("2") do |config|
