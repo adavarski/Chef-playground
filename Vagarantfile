@@ -1,5 +1,6 @@
 IMAGE_NAME = "almalinux/8"
 # IMAGE_NAME = "rockylinux/8"
+# Not tested for 9
 
 N = 3
 
